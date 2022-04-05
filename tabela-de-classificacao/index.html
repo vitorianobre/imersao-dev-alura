@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Classificação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tabela de classificação</h1>
+
+    <!-- Tabela -->
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Pontos</th>
+                <th colspan="3">Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores"></tbody>
+    </table>
+
+    <!-- Adicionar Valores -->
+    <input type="text" name="nome" id="nomeJogador" placeholder="Nome">
+    <input type="number" name="vitorias" id="vitoriasJogador" placeholder="Vitórias" class="valores">
+    <input type="number" name="empates" id="empatesJogador" placeholder="Empates" class="valores">
+    <input type="number" name="derrotas" id="derrotasJogador" placeholder="Derrotas" class="valores">
+    <button onclick="adicionarJogador()">Adicionar</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
