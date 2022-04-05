@@ -9,7 +9,6 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/vitorianobre/imersao-dev-alura?color=red">
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=red" alt="License">
 </p>
 
